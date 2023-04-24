@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <main>
+        <h1>Formulario</h1>
+        <section>
+            <form method="POST" enctype="multipart/form-data" action="./html-semanticos.html">
+
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" name="nombre" placeholder="Nombre">
+                </div>
+
+                <div>
+                    
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" type="text" name="apellido" placeholder="Nombre">
+                
+                </div>
+
+                <div>
+                    <labe>Edad</labe>
+                    <input type="number" min="18" max="90">
+                </div>
+
+                <div>
+                    <label for="">Fecha de nacimiento</label>
+                    <input type="date">
+                </div>
+
+                <div>
+                    <label for="Nacionalidad">Nacionalidad</labe>
+                    <select name="nacionalidad">
+                        <option value="Argentina">Ar</option>
+                        <option value="Uruguay">Uy</option>
+                        <option value="Chile">CL</option>
+                        <option value="Brasil">BR</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="SioNo">Habla ingles?</label>
+                    <input type="radio" value="No" name="Ingles">No
+                    <input type="radio" value="Si" name="Ingles">Si
+                </div>
+
+
+                <div>
+                    <label for="Gustos">Intereces</label><br>
+                    <input type="checkbox" name="Intereces" value="Futbol">Futbol <br>
+                    <input type="checkbox" name="Intereces" value="Tenis">Tenis<br>
+                    <input type="checkbox" name="Intereces" value="Natacion">Natacion <br>
+                    <input type="checkbox" name="Intereces" value="Rugby">Rugby
+                    
+
+                </div>
+
+                <div>
+                    <input type="file">
+                </div>
+
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+
+
+        <section>
+
+            <fieldset>
+                <legend>Otro</legend>
+
+                <form action="">
+                    <label for="search">Buscar:</label>
+                    <input type="search" name="search" id="search">
+                </form>
+            </fieldset>
+
+        </section>
+    </main>
+    
+</body>
+</html>
